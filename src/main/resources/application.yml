@@ -4,5 +4,5 @@ spring:
       storage:
         blob:
           account-name: certifistoragedinesh
-          account-key: sudz47bc1dEEsjnGvMdYeJOJYFEMizP5+KvIvasMFUmu1qB9QFjxVv2Qkw/+DwYS8pbZqLzj2rg6+AStcA6Zog==
-          endpoint: DefaultEndpointsProtocol=https;AccountName=certifistoragedinesh;AccountKey=sudz47bc1dEEsjnGvMdYeJOJYFEMizP5+KvIvasMFUmu1qB9QFjxVv2Qkw/+DwYS8pbZqLzj2rg6+AStcA6Zog==;EndpointSuffix=core.windows.net
+          account-key: ***
+          endpoint: DefaultEndpointsProtocol=https;AccountName=certifistoragedinesh;AccountKey=***==;EndpointSuffix=core.windows.net
