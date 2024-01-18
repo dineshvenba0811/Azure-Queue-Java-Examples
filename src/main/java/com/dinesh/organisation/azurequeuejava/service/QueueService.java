@@ -1,12 +1,13 @@
 package com.dinesh.organisation.azurequeuejava.service;
 
 import com.azure.storage.queue.QueueClient;
+import com.azure.storage.queue.models.SendMessageResult;
 
 public interface QueueService {
 
     QueueClient getConnection();
 
-    void createQueue();
+    SendMessageResult createQueueAndSendMessage();
 
     void addingMessagesToQueue();
 
@@ -14,9 +15,8 @@ public interface QueueService {
 
     void updateMessageInQueue();
 
-    Integer getQueueLength();
+    long getQueueLength();
 
     void receiveMessage();
 
-    void deleteMessage();
 }
